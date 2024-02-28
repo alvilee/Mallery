@@ -1,3 +1,3 @@
-import { Mallery } from './mallery.js';
+import { Mallery } from "./mallery.js";
 
-customElements.define('maller-y', Mallery);
+customElements.define("maller-y", Mallery);
