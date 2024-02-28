@@ -1,0 +1,19 @@
+{
+  "name": "Mallery",
+  "version": "1.0.0",
+  "description": "A gallery a map a journal",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "repository": "git@github.com:alvilee/Mallery.git",
+  "author": "alvilee",
+  "scripts": {
+    "start": "tsc -w & http-server . -p 8000",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.3.3"
+  }
+}

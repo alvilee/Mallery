@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "strict": true,
+      "outDir": "./dist",
+      "sourceMap": true
+    },
+    "incude": ["**/*"],
+    "exclude": ["./node_modules", "./dist"]
+  }
