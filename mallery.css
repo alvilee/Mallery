@@ -1,0 +1,7 @@
+* {
+    color: red;
+}
+
+:host {
+    border: 1px solid red;
+  }
